@@ -10,7 +10,17 @@ namespace week06
     {
         static void Main(string[] args)
         {
+            int a;
+            Console.WriteLine("Enter number: ");
+            a = int.Parse(Console.ReadLine());
 
+            Console.ReadLine();
+
+
+        }
+        static void Sheep(int A)
+        {
+            for (int a = 0; A <= 70; a++) ;
         }
     }
 }
