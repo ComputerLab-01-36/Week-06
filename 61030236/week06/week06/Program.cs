@@ -10,7 +10,16 @@ namespace week06
     {
         static void Main(string[] args)
         {
-
+            void sayHello()
+            {
+                Console.WriteLine("Hello World.");
+            }
+            sayHello();
+            Console.ReadLine();
+        }
+        void sayHello()
+        {
+            Console.WriteLine("Hello World.");
         }
     }
 }
