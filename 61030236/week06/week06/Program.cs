@@ -14,6 +14,7 @@ namespace week06
             Console.WriteLine("Enter number: ");
             a = int.Parse(Console.ReadLine());
 
+
             Console.ReadLine();
 
 
@@ -21,6 +22,10 @@ namespace week06
         static void Sheep(int A)
         {
             for (int a = 0; A <= 70; a++) ;
+            Console.WriteLine("{0}%{1} = {2}" = A);
+            Console.WriteLine("A");
+
+
         }
     }
 }
