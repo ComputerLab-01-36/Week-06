@@ -10,7 +10,7 @@ namespace week06
     {
         static void Main(string[] args)
         {
-            int val = 999;
+            int val; // uninitialized variable
             refMethod(out val);
             Console.WriteLine(val);
             Console.ReadLine();
@@ -20,5 +20,8 @@ namespace week06
         {
             i = i + 1;
         }
+
+       
+
     }
 }
