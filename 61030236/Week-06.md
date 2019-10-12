@@ -840,6 +840,50 @@ Console.WriteLine( a+" "+ f+ " "+ d + " " + money);
 ## แบบฝึกหัด
 
 1. เขียนโปรแกรม โดยรับอินพุตมาเป็นตัวเลข แล้วมีเมธอดหนึ่ง รับตัวเลขนั้นไปพิจารณา แล้วตอบกลับมาว่า เป็นเลขคู่หรือเลขคี่
+```  
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace week06
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            Console.WriteLine("Your are number:"); //   รับค่าจากคีย์บอร์ด
+            
+            a = int.Parse(Console.ReadLine());
+            pass(a);
+            Console.ReadLine();
+
+        }
+        static void pass(int A)
+        {
+
+            if ((A % 2) == 0)
+            {
+
+                Console.WriteLine("{0} is even", A);
+            }
+            else
+            {
+                Console.WriteLine("{0} is odd", A);
+            }
+        }
+
+        
+                
+            
+        
+    }
+}
+
+
+
 2. เขียนโปรแกรม โดยมีเมธอดที่วนรอบหาตัวเลขที่หารด้วย 7 ลงตัว โดยเมธอดนั้นรับพารามิเตอร์เป็นค่าตัวเลขเริ่มต้นและสิ้นสุด
 3. เขียนโปรแกรม โดยมีเมธอดที่บอกว่าตัวเลขตั้งแต่ 1 - 100 มีเลขใดบ้าง ที่บิตที่ 5 มีค่าเป็น 1
 4. เขียนโปรแกรม โดยมีเมธอดคำนวณพื้นที่สี่เหลี่ยมคางหมู โดยรับพารามิเตอร์เป็น ด้านกว้าง ยาว และ ความสูง
